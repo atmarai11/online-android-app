@@ -1,0 +1,12 @@
+const baseUrl = "http://10.0.2.2:4000/";
+// const baseUrl = 'http://localhost:4000/';
+const loginUrl = 'customer/login/';
+const registerUrl = 'customer/register/';
+const addMobileUrl = 'mobile/add';
+const mobileUrl = 'mobile/get/category/';
+const mobileAllUrl = 'mobile/all';
+const mobileGet = 'mobile/get/';
+const addCartUrl = 'cart/add/';
+const getCartUrl = 'cart/getAll';
+const cartDeleteUrl = 'cart/delete/';
+String? token;
